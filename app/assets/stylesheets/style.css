@@ -148,6 +148,6 @@ div.special {
   width: 100%;
 }
 
-div.special > img {
+div.special > img, .item img {
   width: 100%;
 }
