@@ -1,0 +1,153 @@
+/* clear float */
+
+.clear {
+  clear: both;
+}
+
+
+.nav-background {
+  background: #CCC;
+}
+
+nav a, a.btn {
+  color: #000;
+  font-size: 20px;
+  /* text-shadow: 1px 1px #454D50; */
+}
+
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: "Helvetica";
+ */
+
+a.navbar-brand {
+  font-weight: 600;
+}
+
+.navbar-header > a > .logo {
+  /* display: inline-block; */
+  float: left;
+  margin-left: 30px;
+  margin-top: -2px;
+  width: 101px;
+}
+
+header {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 50px 20px 0;
+  background: #f4f4f7;
+  color: #444;
+  margin: 0;
+}
+
+.nav.navbar-nav.navbar-right > li {
+  text-transform: uppercase;
+}
+
+.dropdown-menu {
+  text-transform: none;
+}
+
+.display-4 {
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+#myCarousel {
+  width: 100%;
+  margin: 30px auto 0 auto;
+}
+
+h1{
+  font-size: 4rem;
+  line-height: 1.2em;
+  padding: 20px 0;
+}
+
+h3{
+  font-weight: 300;
+}
+
+.des-image > img {
+  margin-top: 10px;
+  width: 60%;
+}
+
+p > a {
+  color: #ea5828;
+}
+
+button > span {
+  background: #444;
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-part p {
+  text-align: center;
+}
+
+section > hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ea5828;
+  margin-top: -8px;
+  width: 200px;
+}
+
+section p {
+  font-size: 17px;
+}
+
+
+body p {
+  text-align: left;
+  margin-top: 20px;
+}
+
+h1.display-4 + p{
+  /* font-family: 'Montserrat', sans-serif; */
+  text-align: center;
+}
+
+.dropdown-item {
+  font-size: 14px;
+  text-shadow: none;
+
+}
+
+.dropdown-menu {
+  background: #CCC;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* font awesome */
+
+i {
+  font-weight: bold;
+  color: #ea5828;
+}
+
+div.special {
+  width: 100%;
+}
+
+div.special > img {
+  width: 100%;
+}

@@ -1,0 +1,43 @@
+<header>
+    
+  <nav class="navbar nav-background navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header"> 
+        <a href="/home">
+          <%= image_tag 'new-logo.png', alt: 'logo', class: 'logo' %>
+        </a>               
+        
+        <button type="button" class="navbar-toggle toggler" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        
+        <ul class="nav navbar-nav navbar-right">
+          <li> <%= link_to 'Home', home_path %> </li>
+          <li> <%= link_to 'About Us', about_path %> </li>        
+          <li class="dropdown">
+              <a class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                What We Do
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <%= link_to 'General Contracting', general_contracting_path, class: 'dropdown-item' %>
+                <hr>
+                <%= link_to 'Building Construction', building_construction_path, class: 'dropdown-item' %>
+                <hr>
+                <%= link_to 'Civil Engineering', civil_engineering_path, class: 'dropdown-item' %>
+                <hr>
+                <%= link_to 'Property Development', property_development_path, class: 'dropdown-item' %>
+                <hr>
+                <%= link_to 'Development Consultancy', development_consultancy_path, class: 'dropdown-item' %>
+              </div>
+            </li>
+            <li> <%= link_to 'Safety', safety_path %> </li>
+          <li> <%= link_to 'Our Portfolio', portfolio_path %> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+</header>
