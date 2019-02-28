@@ -92,6 +92,7 @@ footer a {
 
 .footer-part p {
   text-align: center;
+  font-size: 14px;
 }
 
 section > hr {
@@ -103,7 +104,7 @@ section > hr {
   width: 200px;
 }
 
-section p {
+ p {
   font-size: 17px;
 }
 
@@ -144,4 +145,9 @@ div.special {
 
 div.special > img, .item img {
   width: 100%;
+}
+
+.fab {
+  font-size: 20px;
+  margin: 0 5px;
 }
