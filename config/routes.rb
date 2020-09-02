@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get '/civil_engineering', to: 'cnahomes#civil_engineering'
   get '/terms', to: 'cnahomes#terms'
   get '/home', to: 'cnahomes#index'
+  get '/cna_solar', to: 'cnahomes#solar_power'
   
   root 'cnahomes#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

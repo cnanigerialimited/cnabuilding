@@ -31,4 +31,7 @@ class CnahomesController < ApplicationController
 
   def civil_engineering
   end
+
+  def solar_power
+  end
 end
