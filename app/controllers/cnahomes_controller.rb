@@ -1,37 +1,27 @@
+# frozen_string_literal: true
+
 class CnahomesController < ApplicationController
-  def index
-  end
+  def index; end
 
-  def about
-  end
+  def about; end
 
-  def building_construction
-  end
+  def building_construction; end
 
-  def development_consultancy
-  end
+  def development_consultancy; end
 
-  def general_contracting
-  end
+  def general_contracting; end
 
-  def policy
-  end
+  def policy; end
 
-  def portfolio
-  end
+  def portfolio; end
 
-  def property_development
-  end
+  def property_development; end
 
-  def safety
-  end
+  def safety; end
 
-  def terms
-  end
+  def terms; end
 
-  def civil_engineering
-  end
+  def civil_engineering; end
 
-  def solar_power
-  end
+  def solar_power; end
 end
