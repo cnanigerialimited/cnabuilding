@@ -137,6 +137,10 @@ h1.display-4 + p{
 i {
   font-weight: bold;
   color: #ea5828;
+
+  &:hover {
+    color: blue;
+  }
 }
 
 div.special {
