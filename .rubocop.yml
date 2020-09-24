@@ -1,0 +1,20 @@
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'node_modules/**/*'
+    - 'script/**/*'
+    - 'support/**/*'
+    - 'tmp/**/*'
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+Documentation:
+  Enabled: false
+LineLength:
+  Max: 100
+Style/FrozenStringLiteralComment:
+  Enabled: false
